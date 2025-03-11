@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .navbar-left h2 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .navbar-right {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .navbar-right a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .user-email {
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  
+  .signout-btn {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .signout-btn:hover {
+    background-color: darkred;
+  }
+  .compy-name{
+    color: #fff;
+    text-decoration: none;
+  }

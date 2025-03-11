@@ -1,0 +1,30 @@
+.carousel-container{
+    width: 90%;
+    height: 80%;
+    margin: 80px;
+}
+.img{
+    width: 290px;
+    height: 190px;
+}
+li{
+    list-style-type: none;
+}
+
+.list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+    justify-content: center; 
+    padding: 20px;
+}
+
+.item {
+    width: 400px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
